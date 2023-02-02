@@ -76,6 +76,7 @@
 		98996F4D298B2EE6000142C7 /* dock51.woff in Resources */ = {isa = PBXBuildFile; fileRef = 98996F16298B2EE6000142C7 /* dock51.woff */; };
 		98996F4E298B2EE6000142C7 /* dock51.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 98996F17298B2EE6000142C7 /* dock51.woff2 */; };
 		98996F4F298B2EE6000142C7 /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98996F18298B2EE6000142C7 /* Dock51.ttf */; };
+		98996F52298B3279000142C7 /* ColliosionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98996F51298B3279000142C7 /* ColliosionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +150,7 @@
 		98996F16298B2EE6000142C7 /* dock51.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = dock51.woff; sourceTree = "<group>"; };
 		98996F17298B2EE6000142C7 /* dock51.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dock51.woff2; sourceTree = "<group>"; };
 		98996F18298B2EE6000142C7 /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
+		98996F51298B3279000142C7 /* ColliosionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColliosionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		98996E42298B2DBA000142C7 /* MAPD724-W2023-ICE-3B */ = {
 			isa = PBXGroup;
 			children = (
+				98996F50298B3261000142C7 /* Manager */,
 				98996E63298B2E08000142C7 /* Core */,
 				98996E5A298B2DE5000142C7 /* GameObjects */,
 				98996E43298B2DBA000142C7 /* AppDelegate.swift */,
@@ -308,6 +311,14 @@
 				98996F18298B2EE6000142C7 /* Dock51.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		98996F50298B3261000142C7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				98996F51298B3279000142C7 /* ColliosionManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,6 +452,7 @@
 				98996E4A298B2DBA000142C7 /* GameScene.swift in Sources */,
 				98996E4C298B2DBA000142C7 /* GameViewController.swift in Sources */,
 				98996E60298B2DF7000142C7 /* Island.swift in Sources */,
+				98996F52298B3279000142C7 /* ColliosionManager.swift in Sources */,
 				98996E67298B2E08000142C7 /* GameObject.swift in Sources */,
 				98996E68298B2E08000142C7 /* GameObjectProtocol.swift in Sources */,
 				98996E62298B2DF7000142C7 /* Cloud.swift in Sources */,
