@@ -54,21 +54,28 @@ class GameScene: SKScene {
             addChild(cloud)
         }
         
-        // prewarm sounds
+        let engineSound = SKAudioNode(fileNamed: "engine.ogg")
+        addChild(engineSound)
+        engineSound.autoplayLooped = true
+        
+         //prewarm sounds
         do{
             let sounds:[String] = ["thunder","yay"]
             for sound in sounds{
+
+                let path:String? = Bundle.main.path(forResource: sound, ofType: "mp3")
                 
-                let path:String = Bundle.main.path(forResource: sound, ofType: "mp3")!
-                
-                let url:URL = URL(fileURLWithPath: path)
-                let avPlayer:AVAudioPlayer = try AVAudioPlayer(contentsOf: url)
-                
-                avPlayer.prepareToPlay()
+                if(path != nil){
+                    
+                    let url:URL = URL(fileURLWithPath: path!)
+                    let avPlayer:AVAudioPlayer = try AVAudioPlayer(contentsOf: url)
+                    
+                    avPlayer.prepareToPlay()
+                }
             }
         }
         catch{
-            
+
         }
 
 
