@@ -96,11 +96,15 @@ class GameScene: SKScene {
         ocean2?.update()
         plane?.update()
         island?.update()
+        
+        CollisionManager.sqauredRadisCheck(scene:self, obj1: plane!, obj2: island!)
         //cloud update
         for cloud in clouds {
             cloud.update()
+            CollisionManager.sqauredRadisCheck(scene:self, obj1: plane!, obj2: cloud)
            
         }
+        
 
     }
 }
