@@ -10,10 +10,13 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
-
+    
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var liveLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         if let scene = GKScene(fileNamed: "GameScene") {
             
             if let sceneNode = scene.rootNode as! GameScene? {
@@ -26,8 +29,24 @@ class GameViewController: UIViewController {
                 }
             }
         }
+        
+        //init
+        CollisionManager.gameViewController = self;
+        ScoreManager.score = 0
+        ScoreManager.lives = 5
+        updateLivesLabel()
+        updateScoreLabel()
     }
+    
+    func updateLivesLabel(){
+        liveLabel.text = "Live: \(ScoreManager.lives)"
+    }
+    
+    func updateScoreLabel(){
+        scoreLabel.text = "Score: \(ScoreManager.score)"
 
+    }
+    
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
             return .portrait

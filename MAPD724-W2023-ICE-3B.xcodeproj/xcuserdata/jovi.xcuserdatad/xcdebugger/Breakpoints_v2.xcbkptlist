@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "09313F6B-FC4E-434A-B400-47F0102B30A7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7255801-2D8C-4062-95C3-2A478219A5FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MAPD724-W2023-ICE-3B/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "sceneDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2406F084-47B2-47CC-A0D7-39700745D6B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MAPD724-W2023-ICE-3B/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "sceneDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2406F084-47B2-47CC-A0D7-39700745D6B2 - f2eee78435833a64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MAPD724_W2023_ICE_3B.GameScene.sceneDidLoad() -&gt; ()"
+                  moduleName = "MAPD724-W2023-ICE-3B"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jovi/Documents/MAPD724-W2023-ICE-3B/MAPD724-W2023-ICE-3B/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "2444">
+               </Location>
+               <Location
+                  uuid = "2406F084-47B2-47CC-A0D7-39700745D6B2 - f2eee78435833a64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MAPD724_W2023_ICE_3B.GameScene.sceneDidLoad() -&gt; ()"
+                  moduleName = "MAPD724-W2023-ICE-3B"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jovi/Documents/MAPD724-W2023-ICE-3B/MAPD724-W2023-ICE-3B/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "2664">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37266E29-4237-41D2-8E76-C7EE45B2F572"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MAPD724-W2023-ICE-3B/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "sceneDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

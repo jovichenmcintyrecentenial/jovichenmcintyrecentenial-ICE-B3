@@ -66,7 +66,6 @@
 		98996F43298B2EE6000142C7 /* life.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98996F0A298B2EE6000142C7 /* life.wav */; };
 		98996F44298B2EE6000142C7 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98996F0B298B2EE6000142C7 /* explosion.mp3 */; };
 		98996F45298B2EE6000142C7 /* thunder.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 98996F0C298B2EE6000142C7 /* thunder.ogg */; };
-		98996F46298B2EE6000142C7 /* yay.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 98996F0D298B2EE6000142C7 /* yay.ogg */; };
 		98996F47298B2EE6000142C7 /* engine.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 98996F0E298B2EE6000142C7 /* engine.ogg */; };
 		98996F48298B2EE6000142C7 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98996F0F298B2EE6000142C7 /* coin.wav */; };
 		98996F49298B2EE6000142C7 /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98996F10298B2EE6000142C7 /* bullet.mp3 */; };
@@ -77,6 +76,8 @@
 		98996F4E298B2EE6000142C7 /* dock51.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 98996F17298B2EE6000142C7 /* dock51.woff2 */; };
 		98996F4F298B2EE6000142C7 /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98996F18298B2EE6000142C7 /* Dock51.ttf */; };
 		98996F52298B3279000142C7 /* ColliosionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98996F51298B3279000142C7 /* ColliosionManager.swift */; };
+		98996F53298B3C14000142C7 /* yay.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 98996F0D298B2EE6000142C7 /* yay.ogg */; };
+		98996F55298B4198000142C7 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98996F54298B4198000142C7 /* ScoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,6 +152,7 @@
 		98996F17298B2EE6000142C7 /* dock51.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dock51.woff2; sourceTree = "<group>"; };
 		98996F18298B2EE6000142C7 /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
 		98996F51298B3279000142C7 /* ColliosionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColliosionManager.swift; sourceTree = "<group>"; };
+		98996F54298B4198000142C7 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				98996F51298B3279000142C7 /* ColliosionManager.swift */,
+				98996F54298B4198000142C7 /* ScoreManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				98996F47298B2EE6000142C7 /* engine.ogg in Resources */,
 				98996F3A298B2EE6000142C7 /* enemy3.png in Resources */,
 				98996F2E298B2EE6000142C7 /* coin06.png in Resources */,
+				98996F53298B3C14000142C7 /* yay.ogg in Resources */,
 				98996F24298B2EE6000142C7 /* coin08.png in Resources */,
 				98996F30298B2EE6000142C7 /* coin02.png in Resources */,
 				98996F3E298B2EE6000142C7 /* explosion7.png in Resources */,
@@ -420,7 +424,6 @@
 				98996F2B298B2EE6000142C7 /* coin05.png in Resources */,
 				98996F3D298B2EE6000142C7 /* explosion3.png in Resources */,
 				98996F39298B2EE6000142C7 /* explosion2.png in Resources */,
-				98996F46298B2EE6000142C7 /* yay.ogg in Resources */,
 				98996F27298B2EE6000142C7 /* coin10.png in Resources */,
 				98996E46298B2DBA000142C7 /* GameScene.sks in Resources */,
 				98996E51298B2DBB000142C7 /* Assets.xcassets in Resources */,
@@ -448,6 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98996F55298B4198000142C7 /* ScoreManager.swift in Sources */,
 				98996E5F298B2DF7000142C7 /* Player.swift in Sources */,
 				98996E4A298B2DBA000142C7 /* GameScene.swift in Sources */,
 				98996E4C298B2DBA000142C7 /* GameViewController.swift in Sources */,
